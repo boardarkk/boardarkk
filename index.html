@@ -10,11 +10,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;1,9..144,420&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --cream:#F4F0EA;
-    --ink:#16130F;
+    --cream:#F9F0E7;
+    --ink:#1D1B19;
     --ink-soft:#4A443C;
-    --brass:#B8873F;
-    --brass-deep:#96702F;
+    --brass:#B58B48;
+    --brass-deep:#B58B48;
     --line:rgba(22,19,15,0.12);
   }
   *{box-sizing:border-box;margin:0;padding:0;}
@@ -39,9 +39,13 @@
     max-width:560px;
     text-align:center;
   }
-
-  .logo-mark{ width:30px; height:30px; margin:0 auto 16px; }
-
+  .logo-mark.logo-mark {
+      width: 150px;
+      height: 100px;
+      margin: 0 auto 16px;
+      display: flex;
+      object-fit: contain;
+  }
   .logo-word{
     font-family:'Inter',sans-serif;
     font-weight:600;
@@ -112,14 +116,7 @@
 <body>
 
   <div class="card">
-    <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M20 4 L34 20 L20 36 L6 20 Z" stroke="#B8873F" stroke-width="1.4"/>
-      <path d="M20 4 L20 36" stroke="#B8873F" stroke-width="1"/>
-      <path d="M6 20 L34 20" stroke="#B8873F" stroke-width="1"/>
-      <path d="M13 12 L27 28" stroke="#B8873F" stroke-width="0.6" opacity="0.6"/>
-      <path d="M27 12 L13 28" stroke="#B8873F" stroke-width="0.6" opacity="0.6"/>
-    </svg>
-    <div class="logo-word">A R K K</div>
+    <IMG SRC="arkk-logo.png" class="logo-mark" alt="Arkk logo">
 
     <div class="eyebrow">
       <span class="dot" aria-hidden="true"></span>
